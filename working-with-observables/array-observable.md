@@ -57,7 +57,7 @@ var items = blocks.observable([3, 5, 7, 9]).on('add', function (args) {
   // args.type = 'add'
 });
 
-// the values will ne added to the end of the array
+// the values will be added to the end of the array
 items.push(11, 13);
 ```
 
@@ -72,8 +72,8 @@ var items = blocks.observable([3, 5, 7, 9]).on('removing', function (args) {
   return false;
 });
 
-// the values will not be removed from the array because of the return false in the handler
-items.push(11, 13);
+// the value will not be removed from the array because of the return false in the handler
+items.pop();
 ```
 
 * remove - fires after items have been removed from the array
@@ -85,6 +85,6 @@ var items = blocks.observable([3, 5, 7, 9]).on('remove', function (args) {
   // args.type = 'remove'
 });
 
-// the values will not be added to the array because of the return false in the handler
-items.push(11, 13);
+// the values will be removed from the array
+items.pop();
 ```
