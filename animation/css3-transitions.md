@@ -10,8 +10,6 @@ Using CSS3 Transitions in jsblocks is the perfect and recommended way for animat
 /* set transition options for all <li> elements */
 .item {
   -webkit-transition:0.5s linear all;
-  -moz-transition:0.5s linear all;
-  -o-transition:0.5s linear all;
   transition:0.5s linear all;
 }
 
