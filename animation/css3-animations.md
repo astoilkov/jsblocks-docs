@@ -32,16 +32,12 @@ Let's build the same example seen in [CSS3 Transitions](css-transitions.md) but 
 /* applying the show animation to the <li> item when being showed */
 .item.b-show {
   -webkit-animation:0.5s show;
-  -moz-animation:0.5s show;
-  -o-animation:0.5s show;
   animation:0.5s show;
 }
 
 /* applying the hide animation to the <li> item when being hidden */
 .item.b-hide {
   -webkit-animation:0.5s hide;
-  -moz-animation:0.5s hide;
-  -o-animation:0.5s hide;
   animation:0.5s hide;
 }
 ```
