@@ -25,7 +25,7 @@ Client-side frameworks suffer major drawbacks like:
  * Laggy experience represented by the content changing between the page first loads and the time DOM is ready
 
 There is a way to address all this issues by executing the entire client-side logic on the server.
-This approach enables the content to be send fully rendered from the server eliminating mentioned problems.
+This approach enables the content to be sent fully rendered from the server eliminating mentioned problems.
 Also jsblocks makes performance improvements and performance will no longer heavily depend on the user machine.
 
 And it's super easy to setup:
