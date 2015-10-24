@@ -15,7 +15,7 @@ Expressions are a easy way to display a value in the HTML without using a [`data
   });
 </script>
 
-<!-- expressions could also be found in attributes -->
+<!-- expressions could also be found in attributes except the style attribute¹ use the css-data-query instead-->
 <h3 class="user {{userRole}}">
   Welcome, {{profile.username}}.
 <h3>
@@ -23,3 +23,4 @@ Expressions are a easy way to display a value in the HTML without using a [`data
 <!-- you could place logic in expressions -->
 <input value="{{price * ratio}}" />
 ```
+¹Caused by behaviour of Internet Explorer removing invalid css (e.g. expressions) from the dom.
