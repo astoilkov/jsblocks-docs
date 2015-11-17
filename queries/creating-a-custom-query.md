@@ -17,7 +17,7 @@ blocks.queries.formatPrice = {
 };
 ```
 
-And this is how you could use your query:
+And this is how you could use your custom query:
 
 ```html
 <span data-query="formatPrice(price)"></span>

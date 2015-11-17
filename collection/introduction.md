@@ -1,6 +1,6 @@
 # Collections
 
-Collections are a way to represent repeating data and allow CRUD operations from a remote service. Collections internally are of type [`blocks.observable`](../working-with-observables/observables-introduction.md) and hold items of type [`Model`](../models/introduction.md).
+Collections are a way to represent repeating data and allow CRUD operations from a remote service. Collections internally are of type [`blocks.observable`](../working-with-observables/introduction.md) and hold items of type [`Model`](../model/introduction.md).
 
 ```javascript
 var App = blocks.Application();
@@ -42,7 +42,4 @@ App.View('Profiles', {
 </div>
 ```
 
-> Note: When choosing between using pure observables and Collection consider that
-pure observables have performance benefits over Collection. However, Collection
-provide you with a lot of flexibility and is best for your architecture. In general choose
-pure observables only when performance is a must.
+> Note: When choosing between using pure observables and Collection consider that pure observables have performance benefits over Collection. However, Collection provide you with a lot of flexibility and is best for your architecture. In general choose pure observables only when performance is a must.

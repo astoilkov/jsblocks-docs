@@ -12,18 +12,18 @@ npm run node
 
 ## Understanding server-side rendering basics
 
-Creating a `blocks.server()` does couple of things:
- * creates an express app listening to the specified port (default 8000)
- * expects an `app` folder where to place `index.html` file which will be the main application view
- * register a middleware which handles all requests and servers all routes that you have created in your client-side code
- * when a route is satisfied it renders the page executing your client-side application logic on the server
-
 ```javascript
 var blocks = require('blocks');
 
 // creates the server which will automatically handle server-side rendering
 blocks.server();
 ```
+
+Creating a `blocks.server()` does couple of things:
+ * creates an express app listening to the specified port (default 8000)
+ * expects an `app` folder where to place `index.html` file which will be the main application view
+ * register a middleware which handles all requests and servers all routes that you have created in your client-side code
+ * when a route is satisfied it renders the page executing your client-side application logic on the server
 
 ## `blocks.server()`
 

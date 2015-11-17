@@ -21,7 +21,7 @@ Just copy the HTML below and run it. Now you have your first working example bui
 
 ## Basic concepts
 
- * Use [`blocks.query()`](../api.md#blocks-query ) method and pass an object which could be accessed in the HTML. Calling the method executes all data-query attributes and all {{expressions}}
+ * Use [`blocks.query()`](../api.md#blocks-query ) method and pass an object which could be accessed in the HTML. Calling the method executes all data-query attributes and {{expressions}}
 
    ```javascript
    blocks.query({

@@ -1,12 +1,8 @@
 ## Modules
 
-jsblocks framework is constructed from three main modules that could be selectively excluded when downloading the framework if you don't need them.
-
-### Modules:
+jsblocks framework is constructed from three main modules that could be selectively excluded when downloading the framework if you don't need them:
 
  * **blocks.query** - DOM manipulation module that executes all *data-query* attributes when **blocks.query()** is called
-
-   **Example:**
    ```html
    <script>
    blocks.query({
@@ -18,8 +14,6 @@ jsblocks framework is constructed from three main modules that could be selectiv
    ```
 
  * **blocks.Application** - MVC(Model-View-Collection) module for creating scalable and maintainable applications. A layer on top of **blocks.query**
-
-   **Example:**
    ```javascript
    var App = blocks.Application();
 
@@ -43,8 +37,6 @@ jsblocks framework is constructed from three main modules that could be selectiv
    ```
 
  * **blocks.jsvalue** - entire library maintained by the jsblocks team inserted in the jsblocks framework as a convenience to work with data easily
-
-   **Example:**
    ```javascript
    var data = [4, 7, 1, 5, 10, 6, 3];
 

@@ -1,7 +1,5 @@
 # jsblocks - Documentation
 
-### Table of contents:
-
 #### Introduction
   * [Getting started](introduction/getting-started.md)
   * [Server-side rendering](introduction/server-side-rendering.md)

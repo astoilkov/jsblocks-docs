@@ -15,7 +15,7 @@ It brings an easier learning curve and faster development cycles.
 This is why jsblocks concentrates a lot of effort in building a great debugging experience.
 Let's take a look at an example of what jsblocks offers.
 
-![debugging experience gif](/img/debugging.gif)
+![debugging experience](/img/debugging.gif)
 
 ## Server-side rendering
 
@@ -31,7 +31,7 @@ Also, jsblocks makes performance improvements so performance will no longer heav
 And it's super easy to setup:
 
 ```javascript
-var blocks = require('./blocks-node.js');
+var blocks = require('blocks');
 var server = blocks.server();
 ```
 

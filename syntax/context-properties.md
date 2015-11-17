@@ -9,7 +9,7 @@ In order to understand the idea behind context properties take a look at this ex
 </div>
 ```
 
-> Note: All context properties are prefixed with $
+> All context properties are prefixed with $
 
 But what exactly is a context and when it changes. In the above example
 the context outside and inside the `<ul>` element is different. The context

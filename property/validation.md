@@ -179,8 +179,6 @@ var Article = App.Model({
 
 Property have additional properties that control the validation behavior. Take a look at the code comments:
 
-> Note: All properties are with their default values
-
 ```javascript
 var Product = App.Model({
 

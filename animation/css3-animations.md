@@ -2,7 +2,7 @@
 
 CSS3 Animations are a perfect fit when you need more advanced control over your CSS animation.
 
-Let's build the same example seen in [CSS3 Transitions](css-transitions.md) but using CSS3 Animations so we could compare the differences.
+Let's build the same example seen in [CSS3 Transitions](css3-transitions.md) but using CSS3 Animations so we could compare the differences.
 
 ```css
 /* the show animation definition which goes from 0 to 1 opacity to achieve a fade in effect */

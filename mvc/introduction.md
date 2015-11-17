@@ -2,7 +2,7 @@
 
 So it's time to understand the jsblocks MVC(Model-View-Collection) part and how to build complex applications with solid architecture. jsblocks MVC is a module and it is not mandatory to build your applications with it. However, it is designed in such a way that you just won't ever need anything else. So let's see it in action.
 
-Creating a jsblocks MVC Application is as easy as calling the blocks.Application method which creates a new Application instance.
+Creating a jsblocks MVC Application is as easy as calling the `blocks.Application` method which creates a new `Application` instance.
 
 ```javascript
 // creating a new application
@@ -13,9 +13,9 @@ var App = blocks.Application();
 ```
 
 Below is an example build with the MVC module. For additional information you could follow the corresponding documentation for views, models and collections.
-* [Views - Introduction](../views/introduction.md)
-* [Models - Introduction](../models/introduction.md)
-* [Collections - Introduction](../collections/introduction.md)
+* [Views - Introduction](../view/introduction.md)
+* [Models - Introduction](../model/introduction.md)
+* [Collections - Introduction](../collection/introduction.md)
 
 ```javascript
 var App = blocks.Application();

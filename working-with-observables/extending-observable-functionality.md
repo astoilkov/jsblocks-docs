@@ -1,7 +1,7 @@
 # Extending observable functionality
 
-[`blocks.observable.extend()`](../api.md#blocks-observable-extend) method could be used to extend a particular observable functionality.
-Great example is value formatting. Let's build value formatter which could be used for a lot of cases.
+[`blocks.observable.extend()`](../api.md#blocks-observable-extend) method could be used to extend a particular observable functionality. 
+Great example is value formatting. Let's build value formatter.
 
 Before using `extend()` you will need to implement the formatting logic. After that the formatter could be used for any observable:
 

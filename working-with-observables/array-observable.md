@@ -26,8 +26,7 @@ var items = blocks.observable([1, 2, 3]);
 items.push(4);
 ```
 
-All of the methods above and some additional methods for easier work with observable
-arrays are described in the API documentation [here]().
+All of the methods above and some additional methods for easier work with observable arrays are described in the API documentation.
 
 ### Events
 

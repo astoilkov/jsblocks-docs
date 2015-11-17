@@ -1,12 +1,10 @@
 # Dependency observable
 
-Dependency observables make it easy to automatically update observable which is constructed from another observable.
-Let's take a look at examples with the two types of dependency observables.
+Dependency observables make it easy to automatically update observable which is constructed from another observable. Let's take a look at examples with the two types of dependency observables.
 
 ## Read-only dependency observable
 
-Read only dependency observables are created by providing a function to the `blocks.observable()` method.
-The framework will automatically detect which observables are used by immediately calling the function.
+Read only dependency observables are created by providing a function to the `blocks.observable()` method. The framework will automatically detect which observables are used by immediately calling the function.
 
 ```javascript
 var firstName = blocks.observable('John');
