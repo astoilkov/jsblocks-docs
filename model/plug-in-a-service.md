@@ -1,5 +1,7 @@
 # Model - plug in a service
 
+> Note: Only [Properties](../property/introduction.md) will get transferred to the server. Observables and other values will not. 
+
 ## Creating a record
 
 ```javascript
