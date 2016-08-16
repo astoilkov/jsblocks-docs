@@ -87,7 +87,7 @@ blocks
 
 We have a lot of things planned for the future, and the readers who are interested enough to read to the bottom
 are a perfect audience.
- * Platform. not just a framework - frameworks like Angular, Ember, React handle only the client-side of things.
+ * Platform not just a framework - frameworks like Angular, Ember, React handle only the client-side of things.
  However we build complete solutions and there should be an easy(while optional) way to work with databases and services.
  * Virtual DOM - jsblocks architecture is build on top of a Virtual DOM and we want to share it with you.
  The final goal is cleaner way to work with the DOM while having better performance than directly touching the DOM.
